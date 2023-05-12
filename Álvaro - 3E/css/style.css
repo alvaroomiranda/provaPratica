@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    gap: 520px;
+}
+
+header h1{
+    font-weight: 800px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:30px;
+    padding: 1.5rem;
+    text-transform: uppercase;
+}
+
+header nav{
+    padding: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    display: flex;
+    gap: 1.5rem;
+}
+
+header nav button{
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    font-size: 20px;
+    
+}
+
+.line1{
+    display: flex;
+    flex-direction: row;
+}
+
+.line1 img{
+    width: 50%;
+    height: 1100px;
+}
+
+.line2{
+    display: flex;
+    flex-direction: row;
+}
+
+.line2 img{
+    width: 25%;
+    height: 800px;
+}
+
+.line3{
+    display: flex;
+    flex-direction: row;
+}
+
+.line3 img{
+    width: 35%;
+    height: 800px;
+}
+
+footer{
+    background-color: #000000;
+    margin-top: 5px;
+}
+
+footer h2, p{
+    color: #ffffff;
+}
+
+footer h2{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer p{
+    display: flex;
+    padding: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
